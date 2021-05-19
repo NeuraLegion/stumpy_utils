@@ -1,18 +1,18 @@
-version: 1.0
+version: 2.0
 shards:
   minitest:
-    github: ysbaddaden/minitest.cr
-    version: 0.5.0
+    git: https://github.com/ysbaddaden/minitest.cr.git
+    version: 1.0.1
 
   pcf-parser:
-    github: l3kn/pcf-parser
-    version: 0.1.1
+    git: https://github.com/neuralegion/pcf-parser.git
+    version: 0.1.2+git.commit.8617518e4f0513e68b759ad8584aa130c5236d56
 
   stumpy_core:
-    github: stumpycr/stumpy_core
-    version: 1.9.1
+    git: https://github.com/neuralegion/stumpy_core.git
+    version: 1.9.1+git.commit.40c2e10be403dc368d8ba483980fe039e6e54541
 
   stumpy_png:
-    github: stumpycr/stumpy_png
-    version: 4.5.2
+    git: https://github.com/neuralegion/stumpy_png.git
+    version: 5.0.1+git.commit.9d976102ce34cea6b49d6e90f9bac924df783421
 
